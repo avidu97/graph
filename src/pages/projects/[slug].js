@@ -1,17 +1,16 @@
 import { GraphQLClient } from 'graphql-request';
 
 const graphcms = new GraphQLClient(
-  'https://api-eu-central-1.graphcms.com/v2/ck8sn5tnf01gc01z89dbc7s0o/master'
+  'https://api-ap-south-1.graphcms.com/v2/cl3rbzoet8srg01xk3ialfs6j/master'
 );
 
 export async function getStaticProps({ params }) {
-  const { product } = await graphcms.request(
+  const { project } = await graphcms.request(
     `
     query ProductPageQuery($slug: String!) {
-      product(where: { slug: $slug }) {
-        name
+      project(where: { slug: $slug }) {
+        title
         description
-        price
       }
     }
   `,
@@ -22,33 +21,32 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      product,
+      project,
     },
   };
 }
 
 export async function getStaticPaths() {
-  const { products } = await graphcms.request(`
+  const { projects } = await graphcms.request(`
     {
-      products {
+      projects {
         slug
-        name
+        title
       }
     }
   `);
 
   return {
-    paths: products.map(({ slug }) => ({
+    paths: projects.map(({ slug }) => ({
       params: { slug },
     })),
     fallback: false,
   };
 }
 
-export default ({ product }) => (
+export default ({ project }) => (
   <React.Fragment>
-    <h1>{product.name}</h1>
-    <p>{product.description}</p>
-    <p>{product.price / 100}</p>
+    <h1>{project.title}</h1>
+    <p>{project.description}</p>
   </React.Fragment>
 );
