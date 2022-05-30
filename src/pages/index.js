@@ -2,6 +2,8 @@ import Link from "next/link";
 import { GraphQLClient } from "graphql-request";
 import Head from "next/head";
 
+
+
 export async function getStaticProps() {
   const graphcms = new GraphQLClient(
     "https://api-ap-south-1.graphcms.com/v2/cl3rbzoet8srg01xk3ialfs6j/master"

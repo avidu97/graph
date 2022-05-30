@@ -16,7 +16,15 @@ export async function getStaticProps({ params }) {
         demoUrl
         platform
         sourceUrl
+        company
+        date
         mainImage {
+          url
+        }
+        projectContent {
+          html
+        }
+        projectImages {
           url
           fileName
         }
@@ -55,12 +63,15 @@ export async function getStaticPaths() {
 
 export default ({ project }) => (
   <React.Fragment>
+    <img src={project.mainImage.url} alt={project.title} />
     <h1>{project.title}</h1>
     <p>{project.description}</p>
     <p>{project.sourceUrl}</p>
     <p>{project.demoUrl}</p>
     <p>{project.platform}</p>
-    <img src={project.mainImage.url} alt={project.mainImage.fileName} />
-    
+    <p>{project.company}</p>
+    <p>{project.date}</p>
+    <div dangerouslySetInnerHTML={{__html: project.projectContent.html}} />
+    <img src={project.projectImages.url} alt={project.projectImages.fileName} />
   </React.Fragment>
 );
