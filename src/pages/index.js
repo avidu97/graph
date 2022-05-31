@@ -135,7 +135,7 @@ export default function Home({ projects }) {
             </div>
             <div className={styles.service_boxes_4}>
               <div className={styles.service_box_title}>
-                <h3>DOMAINS/ E-MAIL</h3>
+                <h3 className={styles.service_title}>DOMAINS/ E-MAIL</h3>
               </div>
               <p>
                 This is a service i offer to you, you can contact me if you want
