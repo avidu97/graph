@@ -36,11 +36,13 @@ export default function Home({ projects }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {/* nav bar */}
-      {/* hero content */}
+
+      {/* ____________________hero content________________________ */}
+
       <div className={styles.container}>
         <div className={styles.hero_container}>
           <div className={styles.hero_text}>
-            <h1>Hi, I'm Avidu, an self taught web developer and designer</h1>
+            <h1>Hi, I'm Avidu, self tought web designer and developer from sri lanka. who is passionate in designing and building great websites.</h1>
           </div>
           <div className={styles.hero_opposite}>
             <div className={styles.hero_image_container}>
@@ -48,6 +50,7 @@ export default function Home({ projects }) {
                 <img className={styles.pp} src="https://media.graphassets.com/1lP32KT5Qk2Fp9NOcFo0" alt="" />
               </div>
             </div>
+            <div className={styles.hr}></div>
             <div className={styles.hero_social}>
               <div>
                 <svg
@@ -94,11 +97,21 @@ export default function Home({ projects }) {
             </div>
           </div>
         </div>
-        {/* services */}
-        {/* why me */}
-        {/* projects */}
-        {/* contact */}
-        {/* footer */}
+        {/* ___________________________services_______________________________*/}
+
+
+        {/* ____________________________why me________________________________ */}
+
+
+        {/* ____________________________projects______________________________ */}
+
+
+        {/* ____________________________contact_______________________________ */}
+
+
+        {/* ____________________________footer________________________________ */}
+
+
         <div>
           <h1>PROJECTS</h1>
         </div>
