@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { GraphQLClient } from "graphql-request";
 import Head from "next/head";
+import styles from "../pages/home.module.css"
+
+
 
 
 
@@ -39,28 +42,36 @@ export default function Home({ projects }) {
       </Head>
       {/* nav bar */}
       {/* hero content */}
-      <div>
-        <div>
-          <h1>Hi, I'm Avidu, an self taught web developer and designer</h1>
+      <div className={styles.container}>
+        <div className={styles.hero_container}>
+          <div className={styles.hero_text}>
+            <h1>Hi, I'm Avidu, an self taught web developer and designer</h1>
+          </div>
+          <div className={styles.hero_opposite}>
+            <div className={styles.hero_image_container}>
+              <div className={styles.hero_image}><img src="../../public/Avidu_web_developer.png" alt="" /></div>
+            </div>
+            <div className={styles.hero_social}></div>
+          </div>
         </div>
-      </div>
-      {/* services */}
-      {/* why me */}
-      {/* projects */}
-      {/* contact */}
-      {/* footer */}
-      <div>
-        <h1>PROJECTS</h1>
-      </div>
+        {/* services */}
+        {/* why me */}
+        {/* projects */}
+        {/* contact */}
+        {/* footer */}
+        <div>
+          <h1>PROJECTS</h1>
+        </div>
 
-      <div>
-        {projects.map(({ slug, title }) => (
-          <ul>
-            <Link key={slug} href={`/projects/${slug}`}>
-              <a>{title}</a>
-            </Link>
-          </ul>
-        ))}
+        <div>
+          {projects.map(({ slug, title }) => (
+            <ul>
+              <Link key={slug} href={`/projects/${slug}`}>
+                <a>{title}</a>
+              </Link>
+            </ul>
+          ))}
+        </div>
       </div>
     </div>
   );
