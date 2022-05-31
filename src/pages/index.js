@@ -42,20 +42,28 @@ export default function Home({ projects }) {
       <div className={styles.container}>
         <div className={styles.hero_container}>
           <div className={styles.hero_text}>
-            <h1>Hi, I'm Avidu, self tought web designer and developer from sri lanka. who is passionate in designing and building great websites.</h1>
+            <h1>Hi, I'm Avidu, </h1>
+            <h2>
+              self tought web designer and developer from sri lanka. who is
+              passionate in designing and building great websites.
+            </h2>
           </div>
           <div className={styles.hero_opposite}>
             <div className={styles.hero_image_container}>
               <div className={styles.hero_image}>
-                <img className={styles.pp} src="https://media.graphassets.com/1lP32KT5Qk2Fp9NOcFo0" alt="" />
+                <img
+                  className={styles.pp}
+                  src="https://media.graphassets.com/1lP32KT5Qk2Fp9NOcFo0"
+                  alt=""
+                />
               </div>
             </div>
-            <div className={styles.hr}></div>
+            <div className={styles.hero_hr}></div>
             <div className={styles.hero_social}>
-              <div>
+              <div className={styles.social_icons}>
                 <svg
-                  width="60"
-                  height="60"
+                  width="40"
+                  height="40"
                   viewBox="0 0 60 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -66,10 +74,10 @@ export default function Home({ projects }) {
                   />
                 </svg>
               </div>
-              <div>
+              <div className={styles.social_icons}>
                 <svg
-                  width="60"
-                  height="60"
+                  width="40"
+                  height="40"
                   viewBox="0 0 60 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -80,10 +88,10 @@ export default function Home({ projects }) {
                   />
                 </svg>
               </div>
-              <div>
+              <div className={styles.social_icons}>
                 <svg
-                  width="60"
-                  height="60"
+                  width="40"
+                  height="40"
                   viewBox="0 0 60 60"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -99,18 +107,13 @@ export default function Home({ projects }) {
         </div>
         {/* ___________________________services_______________________________*/}
 
-
         {/* ____________________________why me________________________________ */}
-
 
         {/* ____________________________projects______________________________ */}
 
-
         {/* ____________________________contact_______________________________ */}
 
-
         {/* ____________________________footer________________________________ */}
-
 
         <div>
           <h1>PROJECTS</h1>

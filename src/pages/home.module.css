@@ -7,13 +7,35 @@
 }
 
 .pp {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
 }
 
-.hr {
+.hero_hr {
     height: 3px;
     width: 100%;
     background-color: black;
+}
+
+.hero_container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
+
+.hero_opposite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero_social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_icons {
+    padding: 0.4vh;
 }
