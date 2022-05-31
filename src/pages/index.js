@@ -106,6 +106,35 @@ export default function Home({ projects }) {
           </div>
         </div>
         {/* ___________________________services_______________________________*/}
+        <div>
+          <h1>WHAT I DO</h1>
+          <div className={styles.service_box_container}>
+            <div className={styles.service_boxes_1}>
+              <div className={styles.service_box_title}>
+                <h3>WEB DESIGN</h3>
+              </div>
+              <p>This is a service i offer to you, you can contact me if you want</p>
+            </div>
+            <div className={styles.service_boxes_2}>
+              <div className={styles.service_box_title}>
+                <h3>WEB DEVELOPMENT</h3>
+              </div>
+              <p>This is a service i offer to you, you can contact me if you want</p>
+            </div>
+            <div className={styles.service_boxes_3}>
+              <div className={styles.service_box_title}>
+                <h3>SOCIAL MEDIA</h3>
+              </div>
+              <p>This is a service i offer to you, you can contact me if you want</p>
+            </div>
+            <div className={styles.service_boxes_4}>
+              <div className={styles.service_box_title}>
+                <h3>DOMAINS/ E-MAIL</h3>
+              </div>
+              <p>This is a service i offer to you, you can contact me if you want</p>
+            </div>
+          </div>
+        </div>
 
         {/* ____________________________why me________________________________ */}
 
