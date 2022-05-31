@@ -336,7 +336,10 @@ export default function Home({ projects }) {
 
         {/* ____________________________contact_______________________________ */}
 
-        <div className={styles.contact_container}></div>
+        <div className={styles.contact_container}>
+          <h2>SAY HI!</h2>
+          <div><p><a className={styles.mail_link} href="mailto:avidu97@gmail.com">@avidu97@gmail.com</a></p></div>
+        </div>
 
       </div>
     </div>

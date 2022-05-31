@@ -138,3 +138,12 @@
     font-size: 5vh;
     font-weight: bold;
 }
+
+/* _____________________contact_________________ */
+
+.mail_link {
+    text-decoration: underline;
+    font-size: 6vh;
+    font-weight: bold;
+    color: black;
+}
