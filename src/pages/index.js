@@ -313,24 +313,23 @@ export default function Home({ projects }) {
 
         <div className={styles.sec_hr}></div>
 
-        {/* ____________________________projects______________________________ */}
+       
 
         {/* ____________________________contact_______________________________ */}
 
         {/* ____________________________footer________________________________ */}
-
+        {/* ____________________________projects______________________________ */}
         <div>
-          <h1>PROJECTS</h1>
-        </div>
-
-        <div>
-          {projects.map(({ slug, title }) => (
-            <ul>
-              <Link key={slug} href={`/projects/${slug}`}>
-                <a>{title}</a>
-              </Link>
-            </ul>
-          ))}
+          <h2>SELECTED PROJECTS</h2>
+          <div>
+            {projects.map(({ slug, title }) => (
+              <ul>
+                <Link key={slug} href={`/projects/${slug}`}>
+                  <a className={styles.project_title}>{title}</a>
+                </Link>
+              </ul>
+            ))}
+          </div>
         </div>
       </div>
     </div>

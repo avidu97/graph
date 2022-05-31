@@ -128,3 +128,13 @@
 .tool_holder {
     padding: 10px;
 }
+
+
+/* _____________________projects_________________ */
+
+.project_title {
+    text-decoration: underline;
+    color: black;
+    font-size: 5vh;
+    font-weight: bold;
+}
