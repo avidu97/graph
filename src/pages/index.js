@@ -319,9 +319,9 @@ export default function Home({ projects }) {
 
         {/* ____________________________footer________________________________ */}
         {/* ____________________________projects______________________________ */}
-        <div>
+        <div className={styles.project_container}>
           <h2>SELECTED PROJECTS</h2>
-          <div>
+          <div className={styles.project_holder}>
             {projects.map(({ slug, title }) => (
               <ul>
                 <Link key={slug} href={`/projects/${slug}`}>
@@ -331,6 +331,13 @@ export default function Home({ projects }) {
             ))}
           </div>
         </div>
+
+        <div className={styles.sec_hr}></div>
+
+        {/* ____________________________contact_______________________________ */}
+
+        <div className={styles.contact_container}></div>
+
       </div>
     </div>
   );
