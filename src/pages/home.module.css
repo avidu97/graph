@@ -1,5 +1,7 @@
 
-
+.container {
+    max-width: 1200px;
+}
 
 .hero {
     font-family: sans-serif;
@@ -14,7 +16,7 @@
 
 .hero_hr {
     height: 3px;
-    width: 100%;
+    width: 50%;
     background-color: black;
 }
 
@@ -22,6 +24,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
+    grid-auto-flow: column;
 }
 
 .hero_opposite {
