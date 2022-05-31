@@ -325,7 +325,7 @@ export default function Home({ projects }) {
             {projects.map(({ slug, title }) => (
               <ul>
                 <Link key={slug} href={`/projects/${slug}`}>
-                  <a className={styles.project_title}>{title}</a>
+                  <a className={styles.project_title}>✱ {title}⟶</a>
                 </Link>
               </ul>
             ))}
