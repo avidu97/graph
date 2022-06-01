@@ -1,6 +1,6 @@
 import { GraphQLClient } from "graphql-request";
 import styles from "../../../styles/projects.module.css";
-import Head from 'next/head';
+import Head from "next/head";
 
 const graphcms = new GraphQLClient(
   "https://api-ap-south-1.graphcms.com/v2/cl3rbzoet8srg01xk3ialfs6j/master"
@@ -65,22 +65,15 @@ export default ({ project }) => (
   <React.Fragment>
     <Head>
       <title>Avidu | {project.title}</title>
-      <meta
-          name="description"
-          content={project.description}
-        />
+      <meta name="description" content={project.description} />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       <meta name="robots" content="all" />
       <meta name="googlebot" content="all" />
       <meta property="og:title" content={project.title} />
-      <meta
-          property="og:description"
-          content={project.description}
-        />
-        <meta
-          property="og:image"
-          content={project.mainImage.url}
-        />
+      <meta property="og:description" content={project.description} />
+      <meta property="og:image" content={project.mainImage.url} />
+      <meta property="og:type" content="website" />
+      <meta charSet="utf-8"></meta>
     </Head>
     <div className={styles.main}>
       <div className={styles.main_container}>
@@ -88,13 +81,16 @@ export default ({ project }) => (
 
         <div className={styles.main_image_container}>
           <div>
-            <img className={styles.main_image} src={project.mainImage.url} alt={project.title} />
+            <img
+              className={styles.main_image}
+              src={project.mainImage.url}
+              alt={project.title}
+            />
           </div>
         </div>
-        
 
         {/* ______________________title and description_____________________ */}
-        
+
         <div className={styles.title_container}>
           <div className={styles.t_d_holder}>
             <div className={styles.title_holder}>
@@ -105,7 +101,6 @@ export default ({ project }) => (
             </div>
           </div>
         </div>
-        
 
         <div className={styles.hr}></div>
 
@@ -121,7 +116,8 @@ export default ({ project }) => (
               </div>
               <div className={styles.tag_single}>
                 <p>
-                  Platform: <span className={styles.tag}>{project.platform}</span>
+                  Platform:{" "}
+                  <span className={styles.tag}>{project.platform}</span>
                 </p>
               </div>
               <div className={styles.tag_single}>
@@ -131,7 +127,8 @@ export default ({ project }) => (
               </div>
               <div className={styles.tag_single}>
                 <p>
-                  Demo URL: <span className={styles.tag}>{project.demoUrl}</span>
+                  Demo URL:{" "}
+                  <span className={styles.tag}>{project.demoUrl}</span>
                 </p>
               </div>
               <div className={styles.tag_single}>
@@ -143,7 +140,7 @@ export default ({ project }) => (
             </div>
           </div>
         </div>
-        
+
         <div className={styles.hr}></div>
 
         {/* ______________________content area______________________________ */}

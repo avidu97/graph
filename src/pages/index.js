@@ -39,7 +39,10 @@ export default function Home({ projects }) {
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
         <link rel="canonical" href="https://www.aviis.live/" key="canonical" />
-        <meta property="og:title" content="Avidu 💻 Web designer and Developer from Sri Lanka" />
+        <meta
+          property="og:title"
+          content="Avidu 💻 Web designer and Developer from Sri Lanka"
+        />
         <meta
           property="og:description"
           content="Avidu, Web Designer and Developer from Sri Lanka"
@@ -48,6 +51,8 @@ export default function Home({ projects }) {
           property="og:image"
           content="https://media.graphassets.com/1lP32KT5Qk2Fp9NOcFo0"
         />
+        <meta property="og:type" content="website" />
+        <meta charSet="utf-8"></meta>
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       {/* nav bar */}
