@@ -7,13 +7,16 @@
     margin-bottom: 5vh;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+}
 
 /* _____________________hero_________________ */
 
 .container {
     max-width: 1200px;
-    flex: 1;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -146,4 +149,8 @@
     font-size: 6vh;
     font-weight: bold;
     color: black;
+}
+
+.contact_icon {
+    font-size: 6vh;
 }
