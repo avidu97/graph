@@ -53,7 +53,7 @@ export default function Home({ projects }) {
         />
         <meta property="og:type" content="website" />
         <meta charSet="utf-8"></meta>
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/favicon.png" />
       </Head>
       {/* nav bar */}
 
