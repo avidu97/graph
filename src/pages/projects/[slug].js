@@ -1,4 +1,5 @@
 import { GraphQLClient } from 'graphql-request';
+import styles from "../../../styles/projects.module.css"
 
 
 

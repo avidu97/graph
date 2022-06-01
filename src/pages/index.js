@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { GraphQLClient } from "graphql-request";
 import Head from "next/head";
-import styles from "../pages/home.module.css";
+import styles from "../../styles/home.module.css";
 
 export async function getStaticProps() {
   const graphcms = new GraphQLClient(
