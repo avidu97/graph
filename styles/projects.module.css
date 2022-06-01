@@ -39,3 +39,20 @@
     background-color: black;
     width: 100vw;
 }
+
+/* ________________________tag area___________________ */
+
+.tag_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag_single {
+    padding: 0.5vh;
+}
+
+.tag {
+    padding: 0.5vh;
+    border-radius: 0.3vh;
+    background-color: lightblue;
+}
