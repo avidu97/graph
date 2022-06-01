@@ -56,3 +56,11 @@
     border-radius: 0.3vh;
     background-color: lightblue;
 }
+
+
+/* ________________________content area___________________ */
+
+
+.content_container {
+    max-width: 800px;
+}

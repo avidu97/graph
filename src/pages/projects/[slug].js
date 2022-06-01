@@ -128,8 +128,8 @@ export default ({ project }) => (
 
         {/* ______________________content area______________________________ */}
 
-        <div>
-          <div>
+        <div className={styles.content_container}>
+          <div className={styles.content_wrapper}>
             <div
               dangerouslySetInnerHTML={{ __html: project.projectContent.html }}
             />
