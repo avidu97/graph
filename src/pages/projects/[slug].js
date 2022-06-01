@@ -1,5 +1,6 @@
 import { GraphQLClient } from "graphql-request";
 import styles from "../../../styles/projects.module.css";
+import Head from 'next/head';
 
 const graphcms = new GraphQLClient(
   "https://api-ap-south-1.graphcms.com/v2/cl3rbzoet8srg01xk3ialfs6j/master"
@@ -62,6 +63,9 @@ export async function getStaticPaths() {
 
 export default ({ project }) => (
   <React.Fragment>
+    <Head>
+      
+    </Head>
     <div className={styles.main}>
       <div className={styles.main_container}>
         {/* ______________________main image________________________________ */}
