@@ -1,0 +1,41 @@
+/* ______________main image______________ */
+
+.main {
+    box-sizing: border-box;
+
+}
+
+.main_container {
+    display: grid;
+    justify-items: center;
+}
+
+.main_image {
+    width: 100vW;
+    object-fit: cover;
+    max-height: 75vh;
+}
+
+
+/* ________________________title box___________________ */
+
+.t_d_holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
+}
+
+.title_holder {
+    padding: 1vh;
+}
+
+.des_holder {
+    padding: 1vh;
+}
+
+.hr {
+    height: 3px;
+    background-color: black;
+    width: 100vw;
+}
