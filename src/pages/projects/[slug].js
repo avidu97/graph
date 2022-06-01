@@ -64,7 +64,23 @@ export async function getStaticPaths() {
 export default ({ project }) => (
   <React.Fragment>
     <Head>
-      
+      <title>Avidu | {project.title}</title>
+      <meta
+          name="description"
+          content={project.description}
+        />
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="robots" content="all" />
+      <meta name="googlebot" content="all" />
+      <meta property="og:title" content={project.title} />
+      <meta
+          property="og:description"
+          content={project.description}
+        />
+        <meta
+          property="og:image"
+          content={project.mainImage.url}
+        />
     </Head>
     <div className={styles.main}>
       <div className={styles.main_container}>
