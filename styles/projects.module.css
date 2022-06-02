@@ -31,8 +31,18 @@
     padding: 1vh;
 }
 
+.title_holder h1 {
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
 .des_holder {
     padding: 1vh;
+}
+
+.des_holder p {
+    font-size: 2.5vh;
+    font-weight: 400;
 }
 
 .hr {
