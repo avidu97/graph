@@ -41,17 +41,23 @@
 }
 
 .des_holder p {
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: 400;
 }
 
 .hr {
     height: 3px;
     background-color: black;
-    width: 100vw;
+    width: 1200px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 /* ________________________tag area___________________ */
+
+.tag_holder {
+    padding: 2.5vh;
+}
 
 .tag_wrapper {
     display: flex;
@@ -65,7 +71,12 @@
 .tag {
     padding: 0.5vh;
     border-radius: 0.3vh;
-    background-color: lightblue;
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.tag_holder p {
+    font-size: 2.5vh;
 }
 
 
@@ -74,4 +85,34 @@
 
 .content_container {
     max-width: 800px;
+}
+
+.content_container h1 {
+    font-size: 5vh;
+}
+
+.content_container h2 {
+    font-size: 4vh;
+}
+
+.content_container p {
+    font-size: 2.5vh;
+}
+
+.content_container img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.footer {
+    display: flex;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 1200px;
 }
