@@ -62,7 +62,7 @@ export default function Home({ projects }) {
       <div className={styles.container}>
         <div className={styles.hero_container}>
           <div className={styles.hero_text}>
-            <h1>Hi, I'm Avidu, </h1>
+            <h1>Hello, I'm Avidu, </h1>
             <h2>
               self tought web designer and developer from sri lanka. who is
               passionate in designing and building great websites.
@@ -128,7 +128,7 @@ export default function Home({ projects }) {
         <div className={styles.sec_hr}></div>
         {/* ___________________________services_______________________________*/}
         <div className={styles.services_container}>
-          <h1>WHAT I DO</h1>
+          <h2>WHAT I DO</h2>
           <div className={styles.service_box_container}>
             <div className={styles.service_boxes_1}>
               <div className={styles.service_box_title}>
@@ -333,7 +333,6 @@ export default function Home({ projects }) {
 
         <div className={styles.sec_hr}></div>
 
-        {/* ____________________________footer________________________________ */}
         {/* ____________________________projects______________________________ */}
         <div className={styles.project_container}>
           <h2>SELECTED PROJECTS</h2>
@@ -364,8 +363,8 @@ export default function Home({ projects }) {
               </p>
             </div>
             <div className={styles.contact_bottom}>
-              <div>
-                <a href="tel:071-75-79-79-0">071-75-79-79-0</a>
+              <div className={styles.contact_ph_holder}>
+                <a className={styles.contact_pn} href="tel:071-75-79-79-0">071-75-79-79-0</a>
               </div>
               <div className={styles.contact_icons}>
                 <div>
@@ -401,8 +400,8 @@ export default function Home({ projects }) {
                   </svg>
                 </div>
               </div>
-              <div>
-                <address>
+              <div className={styles.contact_ph_address}>
+                <address className={styles.contact_address}>
                   Avidu Sampath,
                   <br /> Santhanagama,
                   <br /> Kumbukgete,
@@ -413,10 +412,15 @@ export default function Home({ projects }) {
           </div>
         </div>
 
+
+        <div className={styles.sec_hr}></div>
+
+
+
         {/* ____________________________footer________________________________ */}
 
         <footer>
-          <div className={styles.footer}>avidu©2022</div>
+          <div className={styles.footer}>Avidu ❤ 2022</div>
         </footer>
       </div>
     </div>

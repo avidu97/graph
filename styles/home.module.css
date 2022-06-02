@@ -1,10 +1,13 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .sec_hr {
     width: 100%;
     height: 3px;
     background-color: black;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .main {
@@ -37,6 +40,7 @@
     height: 3px;
     width: 50%;
     background-color: black;
+    margin: 1vh;
 }
 
 .hero_container {
@@ -44,6 +48,15 @@
     grid-template-columns: 2fr 1fr;
     align-items: center;
     grid-auto-flow: column;
+}
+
+.hero_container h1 {
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+.hero_container h2 {
+    font-size: 5vh
 }
 
 .hero_opposite {
@@ -65,7 +78,20 @@
 
 /* _____________________services_________________ */
 
-.services_container {}
+.services_container h2 {
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+.services_container h3 {
+    font-size: 3vh;
+    font-weight: 900;
+}
+
+.services_container p {
+    font-size: 3vh;
+    font-weight: 600;
+}
 
 .service_box_container {
     display: grid;
@@ -141,26 +167,48 @@
 .project_title {
     text-decoration: underline;
     color: black;
-    font-size: 5vh;
-    font-weight: bold;
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+.project_container h2 {
+    font-size: 7vh;
+    font-weight: 900;
 }
 
 /* _____________________contact_________________ */
 
+.contact_container h2 {
+    font-size: 7vh;
+    font-weight: 900;
+}
+
 .mail_link {
     text-decoration: underline;
-    font-size: 6vh;
-    font-weight: bold;
+    font-size: 10vh;
+    font-weight: 900;
     color: black;
+}
+
+.contact_pn {
+    color: black;
+    font-size: 5vh;
+    font-weight: bold;
 }
 
 .contact_icon {
     font-size: 6vh;
 }
 
+.contact_address {
+    font-size: 3vh;
+    font-weight: 400;
+}
+
 .contact_mail {
     display: flex;
     justify-content: center;
+    padding: 2vh;
 }
 
 .contact_bottom {
@@ -174,6 +222,9 @@
     align-items: center;
 }
 
+.contact_ph_holder, .contact_icons, .contact_ph_address {
+    padding: 1vh;
+}
 
 /* _____________________footer_________________ */
 
