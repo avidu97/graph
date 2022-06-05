@@ -148,6 +148,7 @@
     }
 
     .content_container {
+        padding: 1vh;
         width: 400px;
     }
     
