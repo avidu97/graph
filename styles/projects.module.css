@@ -128,6 +128,11 @@
         max-height: 75vh;
     }
 
+    .title {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
     .title_holder h1 {
         font-size: 3rem;
     }
@@ -143,7 +148,7 @@
     }
 
     .content_container {
-        width: 450px;
+        width: 400px;
     }
     
     .content_container h1 {
@@ -174,7 +179,7 @@
         align-items: center;
         justify-content: center;
         padding: 10px;
-        max-width: 450px;
+        max-width: 400px;
     }
 
     .hr {
