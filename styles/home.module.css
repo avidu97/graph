@@ -451,4 +451,12 @@
   .contact_ph_address {
     padding: 1vh;
   }
+
+  .sec_hr {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
 }
