@@ -64,7 +64,7 @@ export default function Home({ projects }) {
           <div className={styles.hero_text}>
             <h1>Hello, I'm Avidu, </h1>
             <h2>
-              self tought web designer and developer from sri lanka. who is
+              Self tought web designer and developer from sri lanka. who is
               passionate in designing and building great websites.
             </h2>
           </div>
@@ -335,7 +335,7 @@ export default function Home({ projects }) {
 
         {/* ____________________________projects______________________________ */}
 
-        
+
         <div className={styles.project_container}>
           <h2>SELECTED PROJECTS</h2>
           <div className={styles.project_holder}>
