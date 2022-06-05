@@ -258,12 +258,13 @@
   }
 
   .hero_container h1 {
-    font-size: 5vh;
+    font-size: 6vh;
     font-weight: 900;
   }
 
   .hero_container h2 {
-    font-size: 2vh;
+    font-size: 2.5vh;
+    padding: 0.3vh;
   }
 
   .hero_image {
@@ -382,12 +383,12 @@
   .project_title {
     text-decoration: underline;
     color: black;
-    font-size: 4vh;
+    font-size: 5vh;
     font-weight: 900;
   }
 
   .project_container h2 {
-    font-size: 3vh;
+    font-size: 5vh;
     font-weight: 900;
   }
 
@@ -397,7 +398,7 @@
   /* _____________________contact_________________ */
 
   .contact_container h2 {
-    font-size: 3vh;
+    font-size: 5vh;
     font-weight: 900;
   }
 
@@ -407,14 +408,14 @@
 
   .mail_link {
     text-decoration: underline;
-    font-size: 3vh;
+    font-size: 5vh;
     font-weight: 900;
     color: black;
   }
 
   .contact_pn {
     color: black;
-    font-size: 2vh;
+    font-size: 4vh;
     font-weight: bold;
   }
 
@@ -423,7 +424,7 @@
   }
 
   .contact_address {
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 400;
   }
 
