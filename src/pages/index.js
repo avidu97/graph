@@ -168,7 +168,7 @@ export default function Home({ projects }) {
 
         {/* ____________________________tools________________________________ */}
 
-        <div>
+        <div className={styles.tool_main}>
           <div className={styles.tool_container}>
             <div className={styles.tool_holder}>
               <svg
@@ -334,6 +334,8 @@ export default function Home({ projects }) {
         <div className={styles.sec_hr}></div>
 
         {/* ____________________________projects______________________________ */}
+
+        
         <div className={styles.project_container}>
           <h2>SELECTED PROJECTS</h2>
           <div className={styles.project_holder}>
