@@ -116,3 +116,74 @@
     padding: 10px;
     width: 1200px;
 }
+
+
+/* ________________________Responsive design___________________*/
+
+@media screen and (max-width: 43rem){
+
+    .main_image {
+        width: 100vW;
+        object-fit: cover;
+        max-height: 75vh;
+    }
+
+    .title_holder h1 {
+        font-size: 3rem;
+    }
+
+    .t_d_holder {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag_wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content_container {
+        width: 450px;
+    }
+    
+    .content_container h1 {
+        font-size: 2vh;
+    }
+    
+    .content_container h2 {
+        font-size: 3vh;
+    }
+    
+    .content_container p {
+        font-size: 1.7vh;
+    }
+    
+    .content_container img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .main {
+        width: 100vw;
+    }
+
+    .footer {
+        display: flex;
+        color: white;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        max-width: 450px;
+    }
+
+    .hr {
+        height: 3px;
+        background-color: black;
+        width: 100%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    
+
+}
