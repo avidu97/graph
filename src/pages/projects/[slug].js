@@ -24,10 +24,6 @@ export async function getStaticProps({ params }) {
         projectContent {
           html
         }
-        projectImages {
-          url
-          fileName
-        }
       }
     }
   `,
