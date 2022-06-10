@@ -135,7 +135,7 @@ export default function Home({ projects }) {
                 <h3>WEB DESIGN</h3>
               </div>
               <p>
-                This is a service i offer to you, you can contact me if you want
+                Design modern and user-friendly interfaces using Figma and Adobe XD.
               </p>
             </div>
             <div className={styles.service_boxes_2}>
