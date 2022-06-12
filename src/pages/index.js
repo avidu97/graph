@@ -64,7 +64,7 @@ export default function Home({ projects }) {
           <div className={styles.hero_text}>
             <h1>Hello, I'm Avidu, </h1>
             <h2>
-              Self tought web designer and developer from sri lanka. who is
+              Self taught web designer and developer from sri lanka. who is
               passionate in designing and building great websites.
             </h2>
           </div>
@@ -81,6 +81,23 @@ export default function Home({ projects }) {
             <div className={styles.hero_hr}></div>
             <div className={styles.hero_social}>
               <div className={styles.social_icons}>
+                <a
+                  href="https://www.linkedin.com/in/avidu-web-designer-from-sri-lanka/"
+                  target={blank}
+                >
+                  <svg
+                    width="40"
+                    height="40"
+                    viewBox="0 0 60 60"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0 4.2975C0 1.92375 1.9725 0 4.40625 0H55.5938C58.0275 0 60 1.92375 60 4.2975V55.7025C60 58.0763 58.0275 60 55.5938 60H4.40625C1.9725 60 0 58.0763 0 55.7025V4.2975ZM18.5362 50.2275V23.1338H9.5325V50.2275H18.5362ZM14.0363 19.4325C17.175 19.4325 19.1287 17.355 19.1287 14.7525C19.0725 12.0938 17.1788 10.0725 14.0963 10.0725C11.0138 10.0725 9 12.0975 9 14.7525C9 17.355 10.9537 19.4325 13.9762 19.4325H14.0363ZM32.4412 50.2275V35.0963C32.4412 34.2863 32.5013 33.4762 32.7412 32.8988C33.39 31.2825 34.8713 29.6063 37.3613 29.6063C40.62 29.6063 41.9212 32.0888 41.9212 35.7337V50.2275H50.925V34.6875C50.925 26.3625 46.485 22.4925 40.56 22.4925C35.7825 22.4925 33.6413 25.1175 32.4412 26.9662V27.06H32.3813C32.4012 27.0287 32.4212 26.9974 32.4412 26.9662V23.1338H23.4412C23.5537 25.6763 23.4412 50.2275 23.4412 50.2275H32.4412Z"
+                      fill="black"
+                    />
+                  </svg>
+                </a>
                 <svg
                   width="40"
                   height="40"
@@ -135,7 +152,8 @@ export default function Home({ projects }) {
                 <h3>WEB DESIGN</h3>
               </div>
               <p>
-                Design modern and user-friendly interfaces using Figma and Adobe XD.
+                Design modern and user-friendly interfaces using Figma and Adobe
+                XD.
               </p>
             </div>
             <div className={styles.service_boxes_2}>
@@ -143,7 +161,8 @@ export default function Home({ projects }) {
                 <h3>WEB DEVELOPMENT</h3>
               </div>
               <p>
-                This is a service i offer to you, you can contact me if you want
+                Fast, SEO-friendly, and Modern websites using modern frameworks
+                like Next.js.
               </p>
             </div>
             <div className={styles.service_boxes_3}>
@@ -151,7 +170,8 @@ export default function Home({ projects }) {
                 <h3>SOCIAL MEDIA</h3>
               </div>
               <p>
-                This is a service i offer to you, you can contact me if you want
+                Bring thousand of customers and sales to your business with just
+                a few dollars.
               </p>
             </div>
             <div className={styles.service_boxes_4}>
@@ -159,7 +179,8 @@ export default function Home({ projects }) {
                 <h3 className={styles.service_title}>DOMAINS/ E-MAIL</h3>
               </div>
               <p>
-                This is a service i offer to you, you can contact me if you want
+                Cheaper Domain and Business E-mail creation and configuration to
+                your existing server or website.
               </p>
             </div>
           </div>
@@ -335,7 +356,6 @@ export default function Home({ projects }) {
 
         {/* ____________________________projects______________________________ */}
 
-
         <div className={styles.project_container}>
           <h2>SELECTED PROJECTS</h2>
           <div className={styles.project_holder}>
@@ -366,7 +386,9 @@ export default function Home({ projects }) {
             </div>
             <div className={styles.contact_bottom}>
               <div className={styles.contact_ph_holder}>
-                <a className={styles.contact_pn} href="tel:071-75-79-79-0">071-75-79-79-0</a>
+                <a className={styles.contact_pn} href="tel:071-75-79-79-0">
+                  071-75-79-79-0
+                </a>
               </div>
               <div className={styles.contact_icons}>
                 <div>
@@ -414,10 +436,7 @@ export default function Home({ projects }) {
           </div>
         </div>
 
-
         <div className={styles.sec_hr}></div>
-
-
 
         {/* ____________________________footer________________________________ */}
 
