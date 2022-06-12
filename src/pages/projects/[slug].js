@@ -131,7 +131,9 @@ export default ({ project }) => (
               <div className={styles.tag_single}>
                 <p>
                   Source URL:{" "}
-                  <span className={styles.tag}><Link href="{project.sourceUrl}">{project.sourceUrl}</Link></span>
+                  <span className={styles.tag}>
+                    <Link href={project.sourceUrl}>{project.sourceUrl}</Link>
+                  </span>
                 </p>
               </div>
             </div>
