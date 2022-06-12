@@ -172,6 +172,10 @@
   font-weight: 900;
 }
 
+.project_holder {
+  padding: 1vh;
+}
+
 /* _____________________contact_________________ */
 
 .contact_container h2 {
