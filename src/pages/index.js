@@ -81,10 +81,7 @@ export default function Home({ projects }) {
             <div className={styles.hero_hr}></div>
             <div className={styles.hero_social}>
               <div className={styles.social_icons}>
-                <a
-                  href="https://www.linkedin.com/in/avidu-web-designer-from-sri-lanka/"
-                  target={blank}
-                >
+                <a href="https://www.linkedin.com/in/avidu-web-designer-from-sri-lanka/">
                   <svg
                     width="40"
                     height="40"
