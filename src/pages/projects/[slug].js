@@ -159,7 +159,7 @@ export default ({ project }) => (
         {/* __________________________footer________________________________ */}
 
         <footer>
-          <div className={styles.footer}>Avidu ❤ 2022</div>
+          <div className={styles.footer}>Avidu Sampath ❤ 2022</div>
         </footer>
       </div>
     </div>
