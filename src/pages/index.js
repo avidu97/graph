@@ -376,7 +376,7 @@ export default function Home({ projects }) {
             <div className={styles.contact_bottom}>
               <div className={styles.contact_ph_holder}>
                 <a className={styles.contact_pn} href="tel:071-75-79-79-0">
-                  071-75-79-79-0
+                  076-75-78-12-7
                 </a>
               </div>
               <div className={styles.contact_icons}>
